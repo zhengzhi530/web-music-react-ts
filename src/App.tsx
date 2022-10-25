@@ -5,16 +5,18 @@ import { BrowserRouter } from 'react-router-dom'
 
 import ZZFAppHeader from './components/app-header'
 import ZZFAppFooter from './components/app-footer'
+import { Provider } from 'react-redux'
+import store from './store';
 
 const App = memo(() => {
   return (
-    <div>
+    <Provider store={store}>
       <BrowserRouter>
         <ZZFAppHeader />
         <Routes />
         <ZZFAppFooter />
       </BrowserRouter>
-    </div>
+    </Provider>
   )
 })
 
