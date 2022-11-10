@@ -11,7 +11,9 @@ function AppNavBar() {
         {dicoverMenu.map((item) => {
           return (
             <li key={item.title} className="item">
-              <NavLink to={item.link} activeClassName="menu-active">
+              <NavLink to={item.link} 
+              className={({ isActive }) => "menu-" + (isActive ? " link-active" : "")}
+              >
                 {item.title}
               </NavLink>
             </li>
