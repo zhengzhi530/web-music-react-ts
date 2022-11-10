@@ -152,7 +152,7 @@ function ThemeLogin() {
             {loginState === 'register' ? '注册' : '登录'}
           </div>
         }
-        visible={isVisible}
+        open={isVisible}
         onCancel={handleCancel}
         modalRender={(modal) => (
           <Draggable

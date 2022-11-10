@@ -46,7 +46,7 @@ import ZZF404 from '../pages/404'
 
 const Routes = () => {
   const routes = useRoutes([
-    { path: '/', element: <Navigate to="/discover" replace />},
+    { path: '/', element: <Navigate to="/discover/recommend" replace />},
     {
       path: '/discover',
       element: <ZZFDiscover/>,
@@ -95,7 +95,6 @@ const Routes = () => {
     //   component: ZZFUser,
     // },
     { path: '*' , element:<ZZF404/>}
-
   ])
   
   return routes

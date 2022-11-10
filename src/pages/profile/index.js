@@ -158,7 +158,7 @@ export default memo(function Profile(props) {
         title="创建歌单"
         okText="确认"
         cancelText="取消"
-        visible={isModalVisible}
+        open={isModalVisible}
         onOk={handleOk}
         onCancel={handleCancel}
       >

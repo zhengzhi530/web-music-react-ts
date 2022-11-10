@@ -10,7 +10,7 @@ function ThemeDialog(props) {
     <>
       <Modal
         title={title}
-        visible={controlShow}
+        open={controlShow}
         onOk={handleOk}
         onCancel={handleCancel}
       >
