@@ -2,6 +2,7 @@ import { useChangeDropBoxState, useGlobalKeyboardEvent } from 'hooks/change-stat
 import React, {  memo } from 'react'
 import { HeaderCategory } from './style'
 import AppNavBar from 'components/nav-bar'
+import { Outlet } from 'react-router-dom'
 
 const ZZFDsicover = memo(() => {
   // custom hook
@@ -11,6 +12,7 @@ const ZZFDsicover = memo(() => {
     <HeaderCategory onClick={useChangeDropBoxState()}>
       {/* 导航栏 */}
       <AppNavBar  />
+      <Outlet/>
     </HeaderCategory>
   )
 })

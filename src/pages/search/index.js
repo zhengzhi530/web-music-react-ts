@@ -6,8 +6,7 @@ import { searchCategories } from 'common/local-data'
 
 import { Input } from 'antd'
 import { SearchWrapper } from './style'
-import { NavLink, Redirect } from 'react-router-dom'
-import { renderRoutes } from 'react-router-config'
+import { NavLink, Outlet, Navigate } from 'react-router-dom'
 
 export default memo(function JMSearch(props) {
   // props/state
@@ -66,13 +65,13 @@ export default memo(function JMSearch(props) {
                   }`}
                   onClick={() => setActiveIndex(index)}
                 >
-                  {activeIndex === index?<Redirect to={item.link + `&song=${searchSongName}`} />:null}
+                  {activeIndex === index?<Navigate to={item.link + `&song=${searchSongName}`} />:null}
                   <em>{item.title}</em>
                 </NavLink>
               )
             })}
           </div>
-          {renderRoutes(route.routes)}
+          <Outlet></Outlet>
         </div>
       </div>
     </SearchWrapper>
