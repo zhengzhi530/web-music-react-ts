@@ -1,7 +1,7 @@
 import React, { memo } from 'react';
 import { NotLogin } from './style';
 
-export default memo(function JMMine() {
+export default memo(function ZZFMine() {
   let isLogin = false;
   return (
     <div>

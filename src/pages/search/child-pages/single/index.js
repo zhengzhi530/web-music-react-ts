@@ -8,7 +8,7 @@ import { formatMinuteSecond } from 'utils/format-utils'
 import { SingleSongWrapper } from './style'
 import SingleSongItem from './c-cpns/single-song-item'
 
-export default memo(function JMSingle(props) {
+export default memo(function ZZFSingle(props) {
   // props/state
   const { song, type } = qs.parse(props.location.search)
 

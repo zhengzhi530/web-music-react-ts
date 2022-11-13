@@ -1,13 +1,14 @@
 import React, { memo } from 'react'
 import { Result, Button } from 'antd';
 import {RollbackOutlined} from '@ant-design/icons'
+import { useNavigate } from 'react-router-dom';
 
 export default memo(function ErrorPage(props) {
   // props/state
-  const {history} = props
+  const navigate = useNavigate();
   // other function
   const handleGoHomeBack = () => {
-    history.push('/')
+    navigate('/', {replace: true})
   }
 
   return (

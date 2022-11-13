@@ -10,7 +10,7 @@ import { renderRoutes } from 'react-router-config'
 import { useChangeDropBoxState , useGlobalKeyboardEvent} from 'hooks/change-state'
 // import { useDispatch } from 'react-redux'
 
-export default memo(function JMDiscover(props) {
+export default memo(function ZZFDiscover(props) {
   // props/state
   const { route } = props
 

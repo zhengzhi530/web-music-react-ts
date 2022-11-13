@@ -1,28 +1,28 @@
 import React from 'react'
 import { Redirect } from 'react-router-dom'
 
-// const JMDiscover = React.lazy(() => import('pages/discover'))
-// const JMRecommend = React.lazy(() =>
+// const ZZFDiscover = React.lazy(() => import('pages/discover'))
+// const ZZFRecommend = React.lazy(() =>
 //   import('pages/discover/child-pages/recommend')
 // )
-// const JMToplist = React.lazy(() =>
+// const ZZFToplist = React.lazy(() =>
 //   import('pages/discover/child-pages/toplist')
 // )
-// const JMSongs = React.lazy(() => import('pages/discover/child-pages/songs'))
-// const JMDjradio = React.lazy(() =>
+// const ZZFSongs = React.lazy(() => import('pages/discover/child-pages/songs'))
+// const ZZFDjradio = React.lazy(() =>
 //   import('pages/discover/child-pages/djradio')
 // )
-// const JMArtist = React.lazy(() => import('pages/discover/child-pages/artist'))
-// const JMAlbum = React.lazy(() => import('pages/discover/child-pages/album'))
+// const ZZFArtist = React.lazy(() => import('pages/discover/child-pages/artist'))
+// const ZZFAlbum = React.lazy(() => import('pages/discover/child-pages/album'))
 
-// const JMSongDetail = React.lazy(() => import('pages/player'))
-// const JMFriend = React.lazy(() => import('pages/friend'))
-// const JMMine = React.lazy(() => import('pages/mine'))
+// const ZZFSongDetail = React.lazy(() => import('pages/player'))
+// const ZZFFriend = React.lazy(() => import('pages/friend'))
+// const ZZFMine = React.lazy(() => import('pages/mine'))
 
-// const JMSearch = React.lazy(() => import('pages/search'))
-// const JMSingle = React.lazy(() => import('pages/search/child-pages/single'))
-// const JMSinger = React.lazy(() => import('pages/search/child-pages/singer'))
-// const JMSearchAlbum = React.lazy(() =>
+// const ZZFSearch = React.lazy(() => import('pages/search'))
+// const ZZFSingle = React.lazy(() => import('pages/search/child-pages/single'))
+// const ZZFSinger = React.lazy(() => import('pages/search/child-pages/singer'))
+// const ZZFSearchAlbum = React.lazy(() =>
 //   import('pages/search/child-pages/album')
 // )
 

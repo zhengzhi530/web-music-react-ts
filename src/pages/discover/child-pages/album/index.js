@@ -10,7 +10,7 @@ import { formatMinuteSecond } from '@/utils/format-utils.js'
 import SongItem from '@/pages/discover/child-pages/toplist/c-cpns/song-item'
 import { getRecommendSong } from '../../../../service/song-recommend'
 
-export default memo(function JMAlbum(props) {
+export default memo(function ZZFAlbum(props) {
   // props/state
   const [recommendPlaylist, setRecommendPlaylist] = useState([])
 

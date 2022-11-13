@@ -8,7 +8,7 @@ import { Input } from 'antd'
 import { SearchWrapper } from './style'
 import { NavLink, Outlet, Navigate } from 'react-router-dom'
 
-export default memo(function JMSearch(props) {
+export default memo(function ZZFSearch(props) {
   // props/state
   const { route } = props
   const [searchSongName, setSearchSongName] = useState(null)// 搜索歌曲名字

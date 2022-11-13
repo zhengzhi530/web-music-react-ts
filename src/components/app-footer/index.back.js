@@ -3,7 +3,7 @@ import { FooterLeft, FooterRight, FooterWrapper } from './style'
 
 import { footerLinks, footerImages } from 'common/local-data'
 
-export default memo(function JMAppFooter() {
+export default memo(function ZZFAppFooter() {
   // 底部左侧
   const showCopys = item => {
     return (

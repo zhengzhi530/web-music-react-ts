@@ -3,11 +3,11 @@ import React, { memo, useEffect } from 'react'
 import qs from 'query-string'
 
 import SingerItem from './c-cpns/singer-item'
-import { JMSingerWrapper } from './style'
+import { ZZFSingerWrapper } from './style'
 import { shallowEqual, useDispatch, useSelector } from 'react-redux'
 import { getSearchSingerListAction } from '../../store/actionCreator'
 
-export default memo(function JMSinger(props) {
+export default memo(function ZZFSinger(props) {
   // props/state
   const { type, song } = qs.parse(props.location.search)
 
@@ -25,7 +25,7 @@ export default memo(function JMSinger(props) {
   }, [dispatch, song, type])
 
   return (
-    <JMSingerWrapper>
+    <ZZFSingerWrapper>
       {singerList &&
         singerList.map((item) => {
           return (
@@ -36,6 +36,6 @@ export default memo(function JMSinger(props) {
             />
           )
         })}
-    </JMSingerWrapper>
+    </ZZFSingerWrapper>
   )
 })

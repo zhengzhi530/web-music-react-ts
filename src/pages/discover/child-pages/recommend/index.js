@@ -14,7 +14,7 @@ import HotArtist from './c-cpns/hot-artist'
 import UserLogin from './c-cpns/user-login'
 import SettleSinger from './c-cpns/settle-singer'
 
-function JMRecommend(props) {
+function ZZFRecommend(props) {
   
   return (
     <RecommendWrapper>
@@ -44,7 +44,7 @@ function JMRecommend(props) {
     </RecommendWrapper>
   )
 }
-export default memo(JMRecommend)
+export default memo(ZZFRecommend)
 
 //#region 不再使用connect函数
 // redux-immutable 解决了redux中的state不可变性的问题,因为要保证state不可变性,在每次更新state之前都会将之前state进行一次拷贝,如果数据量大的话会非常小号性能
@@ -55,7 +55,7 @@ export default memo(JMRecommend)
 // import { connect } from 'react-redux'
 // import { getTopBannersAction } from './store/actionCreator'
 
-// function JMRecommend(props) {
+// function ZZFRecommend(props) {
 //   const { getBanners, topBanners } = props
 //   // 使用react-redux的connect函数,将依赖的state和dispatch传递给connect
 //   useEffect(() => {
@@ -64,7 +64,7 @@ export default memo(JMRecommend)
 
 //   return (
 //     <div>
-//       <h2>JMRecommend</h2>
+//       <h2>ZZFRecommend</h2>
 //       <h3>{topBanners.length}</h3>
 //     </div>
 //   )
@@ -82,4 +82,4 @@ export default memo(JMRecommend)
 //   },
 // })
 
-// export default connect(mapStateToProps, mapDispatchToProps)(memo(JMRecommend))
+// export default connect(mapStateToProps, mapDispatchToProps)(memo(ZZFRecommend))

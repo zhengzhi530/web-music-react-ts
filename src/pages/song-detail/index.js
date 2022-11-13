@@ -8,7 +8,7 @@ import SongDetailLeft from './child-pages/song-detail-left'
 // import SongDetailRight from './child-pages/song-detail-right'
 import { useGlobalKeyboardEvent } from '../../hooks/change-state'
 
-export default memo(function JMSonglist(props) {
+export default memo(function ZZFSonglist(props) {
   // props/state
   const {songlistId} = qs.parse(props.location.search) // 获取传递得歌单ID,之后根据ID发生网络请求
 

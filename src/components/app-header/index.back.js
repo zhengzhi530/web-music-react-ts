@@ -17,7 +17,7 @@ import { DownOutlined, SearchOutlined } from '@ant-design/icons';
 import { HeaderLeft, HeaderRight, HeaderWrapper } from './style';
 import { clearLoginState } from '../../utils/secret-key';
 
-export default memo(function JMAppHeader(props) {
+export default memo(function ZZFAppHeader(props) {
   // props/state
   const [isRedirect, setIsRedirect] = useState(false);
   const [value, setValue] = useState('');
