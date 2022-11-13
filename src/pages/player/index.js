@@ -9,7 +9,7 @@ import { shallowEqual, useSelector } from 'react-redux'
 import { formatMinuteSecond } from '../../utils/format-utils'
 
 // 歌曲详情页面
-export default memo(function JMSongDetail(props) {
+export default memo(function ZZFSongDetail(props) {
   // props/state  先写死: 167876    到时候换这个: props.location.state.id
   // 之后根路id发送请求,数据保存在redux当中
   const [songlist, setSonglist] = useState([])

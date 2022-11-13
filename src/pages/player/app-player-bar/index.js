@@ -16,7 +16,7 @@ import { DownloadOutlined, UndoOutlined } from '@ant-design/icons';
 import SliderPlaylist from './c-cpns/slider-playlist';
 import { Control, Operator, PlayerbarWrapper, PlayerInfo } from './stye';
 
-export default memo(function JMAppPlayerBar() {
+export default memo(function ZZFAppPlayerBar() {
   // props/state
   const [currentTime, setCurrentTime] = useState(0); // 用于保存当前播放的时间
   const [isShowBar, setIsShowBar] = useState(false); // 是否显示音量播放条

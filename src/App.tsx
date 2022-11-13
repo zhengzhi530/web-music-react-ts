@@ -7,6 +7,7 @@ import ZZFAppHeader from './components/app-header'
 import ZZFAppFooter from './components/app-footer'
 import { Provider } from 'react-redux'
 import store from './store';
+import ZZFAppPlayerBar from 'pages/player/app-player-bar'
 
 const App = memo(() => {
   return (
@@ -15,6 +16,9 @@ const App = memo(() => {
         <ZZFAppHeader />
         <Routes />
         <ZZFAppFooter />
+        <ZZFAppPlayerBar />
+        {/* 返回顶部 */}
+        {/* <BackTop /> */}
       </BrowserRouter>
     </Provider>
   )

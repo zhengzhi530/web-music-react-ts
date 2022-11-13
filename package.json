@@ -26,9 +26,11 @@
     "react-redux": "^8.0.4",
     "react-router-dom": "^6.4.2",
     "react-scripts": "5.0.1",
+    "react-transition-group": "^4.4.5",
     "redux": "^4.2.0",
     "redux-immutable": "^4.0.0",
     "redux-thunk": "^2.4.1",
+    "sortablejs": "^1.15.0",
     "styled-components": "^5.3.6",
     "typescript": "^4.8.4",
     "web-vitals": "^2.1.4"
@@ -57,7 +59,5 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-   
-  }
+  "devDependencies": {}
 }
