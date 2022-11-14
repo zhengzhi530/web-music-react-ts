@@ -53,7 +53,7 @@ export default memo(function TopBanners() {
           >
             {topBanners && topBanners.map(item => {
               return (
-                <div >
+                <div key={item.imageUrl}>
                   <img src={item.imageUrl} alt={item.typeTitle} />
                 </div>
               )

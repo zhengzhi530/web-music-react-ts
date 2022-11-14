@@ -36,7 +36,7 @@ export default memo(function HYSongsList() {
           songList.map((item, index) => {
             return (
               // <HYThemeCover info={item} key={item.id} right="30px" />
-              <SongCover info={item} />
+              <SongCover info={item}  key={item.id}/>
             )
           })
         }

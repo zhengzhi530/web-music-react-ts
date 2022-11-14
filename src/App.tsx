@@ -1,4 +1,4 @@
-import React, { memo } from 'react'
+import React, { memo, Suspense } from 'react'
 import '@/assets/css/reset.css'
 import Routes from './router'
 import { BrowserRouter } from 'react-router-dom'
@@ -14,7 +14,10 @@ const App = memo(() => {
     <Provider store={store}>
       <BrowserRouter>
         <ZZFAppHeader />
+        {/* 将lazy进来的组件包起来，并设置好fallback属性即可 */}
+        <Suspense fallback={<div>Loading... </div>}>
         <Routes />
+        </Suspense>
         <ZZFAppFooter />
         <ZZFAppPlayerBar />
         {/* 返回顶部 */}

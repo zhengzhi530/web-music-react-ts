@@ -48,10 +48,6 @@ const Routes = () => {
           element: <ZZFRecommend/>
         },
         { path: '/discover/ranking', element: <ZZFToplist/> },
-        {
-          path: '/discover/ranking',
-          element: <ZZFToplist/>,
-        },
         { path: '/discover/album', element: <ZZFAlbum/> },
         { path: '/discover/djradio', element: <ZZFDjradio/> },
         { path: '/discover/artist', element: <ZZFArtist/> },

@@ -32,10 +32,14 @@ export default memo(function Toplist(props) {
   // 排行榜头部信息
   useEffect(() => {
     // 派发榜单标题信息Action
+    // console.log("===>"+JSON.stringify(props))
+    if(props.location){
+
     let { id } = qs.parse(props.location.search)
     id = id ? id : currentToplistId
     dispatch(getToplistTitleInfoAction(id))
-  }, [currentToplistId, dispatch, props])
+  }
+  }, [currentToplistId, dispatch])
 
   return (
     <TopListWrapper className="wrap-bg2">
